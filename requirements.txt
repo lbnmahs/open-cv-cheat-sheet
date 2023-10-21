@@ -1,0 +1,6 @@
+        BELOW ARE THE PYTHON PACKAGES THAT YOU NEED
+        
+pip install cv2
+pip install numpy
+pip install pillow
+pip install os
