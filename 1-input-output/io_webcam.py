@@ -13,7 +13,8 @@ while True:
 
     cv2.imshow('Webcam Frame', frame)
 
-    if cv2.waitKey(40) & 0xFF == ord('q'):
+    # Webcam closes after pressing letter "q" on keyboard
+    if cv2.waitKey(0) & 0xFF == ord('q'):
         break
 
 webcam.release()
