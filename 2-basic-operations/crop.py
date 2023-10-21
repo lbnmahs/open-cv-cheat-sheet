@@ -7,4 +7,4 @@ cropped_img = img[360:720, 640:1280]
 
 cv2.imshow('Cropped Image', cropped_img)
 cv2.waitKey(0)
-print(cropped_img.shape)
+print(cropped_img.shape) # Usually a tuple -> (pixel height, pixel width, number of channels)
